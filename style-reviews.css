@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .review-image {
+    max-width: 300px;
+    border: 1px solid #ccc;
+  }
+  
+  body {
+    font-family: Gotham, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+  footer img.img5 {
+    max-width: 50px;
+    margin: 0 10px;
+    border: 1px solid #333;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  .tab {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+  
+  .tab:hover {
+    background-color: #f00;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #f00;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  #about-us p, #all-bikes p, #promotions p, #location p, #reviews p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav {
+      margin-top: 20px;
+    }
+  
+    .tab {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    section {
+      padding: 30px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    #about-us p, #all-bikes p, #promotions p, #location p, #reviews p {
+      font-size: 18px;
+    }
+  }
+  
+  .review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .review {
+    width: 50%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .review h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .review p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .review span {
+    font-weight: bold;
+  }
+  
+  .review img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  

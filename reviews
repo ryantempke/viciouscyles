@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Reviews - Bike Shop</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bike Shop</h1>
+      <nav>
+        <a href="index.html" class="tab">Home</a>
+        <a href="about.html" class="tab">About Us</a>
+        <a href="locations.html" class="tab">Locations</a>
+        <a href="promotions.html" class="tab">Promotions</a>
+        <a href="media.html" class="tab">Media</a>
+        <a href="reviews.html" class="tab active">Reviews</a>
+      </nav>
+    </header>
+    <section id="reviews">
+      <h2>Reviews</h2>
+      <div class="review">
+        <h3>Great Selection and Service</h3>
+        <p>I had a fantastic experience at this bike shop. The staff was incredibly helpful in helping me choose the right bike, and their selection is top-notch.</p>
+        <p class="author">- Sarah D.</p>
+      </div>
+      <div class="review">
+        <h3>Awesome Bike Shop</h3>
+        <p>This bike shop is amazing. They have everything you need to get started with biking, and their staff is incredibly knowledgeable.</p>
+        <p class="author">- Mike T.</p>
+      </div>
+    </section>
+  </body>
+</html>

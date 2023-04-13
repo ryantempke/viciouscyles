@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="form-styles.css">
+</head>
+<body>
+	<header>
+		<h1>Home</h1>
+		<nav>
+			<a href="locations.html" class="tab">Locations</a>
+			<a href="promotions.html" class="tab">Promotions</a>
+			<a href="contact.html" class="tab">Contact</a>
+			<a href="media.html" class="tab">Media</a>
+			<a href="news.html" class="tab">News</a>
+			<a href="reviews.html" class="tab">Reviews</a>
+			<a class="tab" href="viciouscycles-index.html">Home</a>
+		</nav>
+	</header>
+  <main>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+    
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+    
+      <fieldset>
+        <legend>Which type of bike are you interested in?</legend>
+        <label for="road">Road</label>
+        <input type="checkbox" id="road" name="bike-type[]" value="road">
+    
+        <label for="mountain">Mountain</label>
+        <input type="checkbox" id="mountain" name="bike-type[]" value="mountain">
+    
+        <label for="hybrid">Hybrid</label>
+        <input type="checkbox" id="hybrid" name="bike-type[]" value="hybrid">
+      </fieldset>
+    
+      <fieldset>
+        <legend>What size bike do you need?</legend>
+        <label for="small">Small</label>
+        <input type="radio" id="small" name="bike-size" value="small">
+    
+        <label for="medium">Medium</label>
+        <input type="radio" id="medium" name="bike-size" value="medium">
+    
+        <label for="large">Large</label>
+        <input type="radio" id="large" name="bike-size" value="large">
+      </fieldset>
+    
+      <label for="color">Bike color:</label>
+      <select id="color" name="color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="black">Black</option>
+        <option value="white">White</option>
+      </select>
+    
+      <input type="submit" value="Submit">
+    </form>
+</main>
+<footer>
+    <div class="footer-container">
+      <img src="/Users/ryantempke/Documents/Website Images/logo.png" alt="Location image">
+      <a href="https://twitter.com/"><img src="twitter.png" alt="Twitter"></a>
+      <a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook"></a>
+      <div>
+        <p class="email-link"><a href="mailto:viciouscycles@gmail.com">viciouscycles@gmail.com</a></p>
+      </div>
+    </div>
+</body>
+</html>
+    
